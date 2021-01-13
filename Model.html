@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://127.0.0.1:5000/predict -->
+<html><!--From https://codepen.io/frytyler/pen/EGdtg--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>ML API</title>
+  <link href="./Model_files/css" rel="stylesheet" type="text/css">
+<link href="./Model_files/css(1)" rel="stylesheet" type="text/css">
+<link href="./Model_files/css(2)" rel="stylesheet" type="text/css">
+<link href="./Model_files/css(3)" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./Model_files/style.css">
+  
+</head>
+
+<body bgcolor="skyblue">
+ <div class="login">
+	<h1>Boston House Price Prediction</h1>
+
+     
+    <form action="http://127.0.0.1:5000/predict" method="post">
+    	<input type="text" name="CRIM" placeholder="CRIM" required="required">
+        <input type="text" name="ZN" placeholder="ZN" required="required">
+	<input type="text" name="INDUS" placeholder="INDUS" required="required">
+        <input type="text" name="CHAS" placeholder="CHAS" required="required">
+        <input type="text" name="NOX" placeholder="NOX" required="required">
+        <input type="text" name="RM" placeholder="RM" required="required">
+        <input type="text" name="AGE" placeholder="AGE" required="required">
+        <input type="text" name="DIS" placeholder="DIS" required="required">
+        <input type="text" name="RAD" placeholder="RAD" required="required">
+        <input type="text" name="TAX" placeholder="TAX" required="required">
+        <input type="text" name="PTRATIO" placeholder="PTRATIO" required="required">
+        <input type="text" name="B" placeholder="B" required="required">
+        <input type="text" name="LSTAT" placeholder="LSTAT" required="required">
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   House Price is 21.09
+
+ </div>
+
+
+
+</body></html>
